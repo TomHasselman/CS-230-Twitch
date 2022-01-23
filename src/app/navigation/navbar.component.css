@@ -1,10 +1,22 @@
 .navbar-custom {
     background-color:#161616;
 }
-.nav-link {
+.nav-link-custom {
     color: white;
 }
 
-.nav-link:hover{
+.nav-link-custom:hover{
     color:#9147ff;
 }
+
+.nav {
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: -4px;
+    margin-top: -6px;
+}
+
+.search-img {
+    color: white;
+}
+
