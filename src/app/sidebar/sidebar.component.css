@@ -1,3 +1,7 @@
 .sidebar-custom {
     background-color: #1f1f23;
 }
+
+.channel-custom:hover {
+    background-color: #252527;
+}

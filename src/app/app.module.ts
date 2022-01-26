@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navigation/navbar.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { FollowedChannelsComponent } from './followed-channels/followed-channels.component';
+import { CarouselComponent } from './carousel/carousel.component';
 
 
 @NgModule({
@@ -12,7 +13,8 @@ import { FollowedChannelsComponent } from './followed-channels/followed-channels
     AppComponent,
     NavbarComponent,
     SidebarComponent,
-    FollowedChannelsComponent
+    FollowedChannelsComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule
