@@ -1,18 +1,30 @@
-<div class="d-flex flex-column text-white side mt-10 sidebar-custom p-2 "
-    style="width: 255px; height: 100vh; font-family: 'Inter', sans-serif; font-weight: 600;">
-    <a href="/" class="d-flex align-items-center text-white text-decoration-none">
-        <svg class="bi me-2" width="40" height="32">
-            <use xlink:href="#bootstrap"></use>
-        </svg>
-        <span class="text-nowrap position-absolute start-0 m-2" style="font-size: 12pt;">FOLLOWED CHANNELS</span>
-    </a>
+<div class="d-flex flex-column text-white side mt-10 sidebar-custom p-2 ">
+    <div class="d-flex dlex-row">
+        <div class="col-10">
+            <span class="text-nowrap position-absolute start-0 mx-3 my-2 sidebar-title">FOLLOWED CHANNELS</span>
+        </div>
+        
+        <div class="col-2 mt-1">
+            <a href="#" class="a-button p-1">
+            <svg class="bi" href="#" width="28" height="23" fill="white">
+                <use xlink:href="assets/bootstrap-icons.svg#arrow-bar-left"/>
+              </svg>
+            </a>
+        </div>
+
+    </div>
 
     
     <app-followed-channels></app-followed-channels>
-    <app-followed-channels></app-followed-channels>
-    <app-followed-channels></app-followed-channels>
-
+    
 
     
+    <app-followed-channels></app-followed-channels>
+    
+
+    
+    <app-followed-channels></app-followed-channels>
+    
+
 
 </div>

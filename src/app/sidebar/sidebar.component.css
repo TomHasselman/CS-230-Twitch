@@ -1,7 +1,21 @@
 .sidebar-custom {
     background-color: #1f1f23;
+    width: 255px; 
+    height: 100vh; 
+    font-family: 'Inter', 
+    sans-serif; 
+    font-weight: 600;
 }
 
 .channel-custom:hover {
     background-color: #252527;
+}
+
+.sidebar-title {
+    font-size: 10pt;
+}
+
+.a-button:hover {
+    background-color: rgb(61, 60, 60);
+    border-radius: 5px;
 }

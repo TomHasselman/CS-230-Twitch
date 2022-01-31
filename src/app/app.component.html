@@ -1,26 +1,51 @@
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
-  </style> 
+</style>
 
 
 
 <body style="background-color: #0e0e10;">
-<div class="float-sm-top">
-  
-<app-navbar>Loading...</app-navbar>
-</div> 
-<div class="d-flex flex-row">
-<div class="col-sm-1">
-<app-sidebar></app-sidebar>
-</div>
-<div class="col-sm-11">
-<app-carousel></app-carousel>
-</div>
-<div class="col-sm">
+  <div class="">
+    <app-navbar>Loading...</app-navbar>
+  </div>
 
-</div>
-</div>
-<div>
-</div>
+  <div class="d-flex flex-row">
+    <div class="col-2">
+      <app-sidebar></app-sidebar>
+    </div>
+
+    <div class="col-8 ">
+      <app-carousel></app-carousel>
+      <div class="d-flex flex-row">
+      <div>
+      <p class="text-custom font-custom">Live channels we think you’ll like</p>
+      </div>
+      </div>
+      <div class="d-flex flex-row">
+
+        <div class="col-auto me-3">
+          <app-channel-card></app-channel-card>
+        </div>
+
+        <div class="col-auto me-3">
+          <app-channel-card></app-channel-card>
+        </div>
+
+      </div>
+    </div>
+    <div class="col-2">
+
+    </div>
+  </div>
+  <div>
+  </div>
+
+  <div class="d-flex flex-row">
+    <div class="col-sm-2">
+    </div>
+    <div class="col-10">
+    </div>
+  </div>
+  
 
 </body>

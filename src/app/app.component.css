@@ -1,3 +1,21 @@
 .app-custom  {
     background-color: #0e0e10;
 }
+
+.stream-custom {
+    
+}
+
+.text-custom {
+    color: white;
+}
+
+.font-custom {
+    font-weight: 600;
+    font-size: 14pt;
+}
+
+.a-button:hover {
+    background-color: rgb(61, 60, 60);
+    border-radius: 5px;
+}

@@ -1,0 +1,30 @@
+.a-text {
+    text-decoration: none;
+}
+
+.channel-name {
+    line-height: 1;
+    font-size: 11pt;
+    color: lightgray;
+}
+
+.game {
+    line-height: 1;
+    font-size: 9pt;
+    color: rgb(160, 158, 158);
+}
+
+.a-button:hover {
+    background-color: #2b2b31;
+}
+
+.live {
+    background-color: #eb0400;
+    height: 2px;
+}
+
+.viewers {
+    line-height: 1;
+    font-size: 10pt;
+    color: rgb(194, 190, 190);
+}

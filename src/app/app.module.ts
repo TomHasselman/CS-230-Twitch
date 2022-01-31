@@ -6,6 +6,7 @@ import { NavbarComponent } from './navigation/navbar.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { FollowedChannelsComponent } from './followed-channels/followed-channels.component';
 import { CarouselComponent } from './carousel/carousel.component';
+import { ChannelCardComponent } from './channel-card/channel-card.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { CarouselComponent } from './carousel/carousel.component';
     NavbarComponent,
     SidebarComponent,
     FollowedChannelsComponent,
-    CarouselComponent
+    CarouselComponent,
+    ChannelCardComponent
   ],
   imports: [
     BrowserModule

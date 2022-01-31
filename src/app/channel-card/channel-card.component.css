@@ -1,0 +1,70 @@
+.card-custom {
+    background-color: #0e0e10;
+
+}
+
+.card-body {
+    padding: 0px;
+    padding-top: 4px;
+}
+
+.text-custom {
+    color: white;
+    overflow: hidden;
+}
+
+.subtitle {
+    color: rgb(133, 131, 131);
+    font-size: 10pt;
+    font-weight: 500;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.title {
+    color: white;
+    font-size: 12pt;
+    font-weight: 600;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.title:hover {
+    color:#9147ff;
+}
+
+.a-button:hover {
+    background-color: rgb(61, 60, 60);
+    border-radius: 5px;
+}
+
+.a-text {
+    text-decoration: none;
+}
+
+a:hover {
+    color:#9147ff;
+}
+
+.lang-tag {
+    background-color: rgb(61, 60, 60);
+}
+
+.lang-tag:hover {
+    background-color: rgb(83, 83, 83);
+}
+
+.live-tag {
+    background-color: #eb0400;
+    font-weight: 700;
+}
+
+.viewers-tag {
+    background-color: rgba(39, 38, 39, 0.712);
+    position:absolute;
+    bottom: 30px;
+    left: 5px;
+    font-weight: 600;
+    font-size: 10pt;
+    
+}
