@@ -28,3 +28,43 @@
 btn:hover {
     background-color: rgb(61, 60, 60);
 }
+
+.search-custom {
+    background-color: #464649;
+    border-color: #464649; 
+    height: 35px; 
+    width: 350px; 
+    right: 2px;
+}
+
+.search-custom:hover {
+    border-width: 1;
+    border-color: #58585c;
+}
+
+.search-custom:active {
+    border-width: 4px;
+    border-color: #9147ff;
+}
+
+.search-button {
+    background-color: #3a3a3d; 
+    border: 10px;
+}
+
+.bit-button {
+    font-size: 10pt; 
+    font-weight: 600; 
+    color: white; 
+    background-color: #3a3a3d;
+}
+
+.bit-text {
+    font-weight: 500;
+    font-size: 10pt;
+    line-height: 1;
+}
+
+.form-control:active {
+    border-width: 0;
+}
