@@ -23,12 +23,16 @@
       </div>
       <div class="d-flex flex-row">
 
-        <div class="col-auto me-3">
-          <app-channel-card></app-channel-card>
-        </div>
-
-        <div class="col-auto me-3">
-          <app-channel-card></app-channel-card>
+        <div class="col-auto me-3" *ngFor="let channel of channels">
+          <app-channel-card 
+            img={{channel.img}}
+            [viewers]= 'channel.viewers'
+            thumbnail={{channel.thumbnail}}
+            name={{channel.name}}
+            title={{channel.title}}
+            language={{channel.language}}
+            category={{channel.category}}
+          ></app-channel-card>
         </div>
 
       </div>

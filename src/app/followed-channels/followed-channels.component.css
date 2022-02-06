@@ -28,3 +28,13 @@
     font-size: 10pt;
     color: rgb(194, 190, 190);
 }
+
+.name {
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.category {
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
