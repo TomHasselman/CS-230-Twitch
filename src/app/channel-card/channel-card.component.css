@@ -68,3 +68,7 @@ a:hover {
     font-size: 10pt;
     
 }
+
+.channel-card {
+    width: 20rem;
+}

@@ -5,4 +5,4 @@ export const sidebar_channel_list  = [
         viewers: 347,
         category: "Animals, Aquariums, and Zoos"
     }
-];
+]; 
