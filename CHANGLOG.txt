@@ -1,0 +1,30 @@
+Main Features:
+    >Utilized ngFor loop to programatically generate "channel-card" components
+    
+    >Created the "channel_list.ts" file
+
+    >Added the following attributes to the class "channel_list.ts":
+        -img
+        -name
+        -title
+        -viewers
+        -thumbnail
+        -language
+        -category
+
+    >Created the "channel_model.ts" file and added the attributes from "channel_list.ts" to the constructor.
+
+Bonus Features:
+    >Utilized ngFor loop to programatically generate "followed-channels" components within the "sidebar" component.
+
+    >Created the "sidebar_channel_list.ts" file 
+
+    >Added the following attributes to the class "channel_list.ts":
+        -img
+        -name
+        -viewers
+        -category
+
+    >Created the "sidebar_channel_model.ts" file and added the attributes from "sidebar_channel_list.ts" to the constructor.
+
+    

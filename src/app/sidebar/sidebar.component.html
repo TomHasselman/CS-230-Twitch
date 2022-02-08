@@ -3,15 +3,22 @@
         <div class="col-10">
             <span class="text-nowrap position-absolute start-0 mx-3 my-2 sidebar-title">FOLLOWED CHANNELS</span>
         </div>
-        
+
         <div class="col-2 mt-1">
             <a href="#" class="a-button p-1">
-            <svg class="bi" href="#" width="28" height="23" fill="white">
-                <use xlink:href="assets/bootstrap-icons.svg#arrow-bar-left"/>
-              </svg>
+                <svg class="bi" href="#" width="28" height="23" fill="white">
+                    <use xlink:href="assets/bootstrap-icons.svg#arrow-bar-left" />
+                </svg>
             </a>
         </div>
 
-    </div *ngFor="let sidebar_channel of sidebar_channels">
-    <app-followed-channels></app-followed-channels>
     </div>
+    <div *ngFor="let sidebar_channel of sidebar_channels">
+        <app-followed-channels
+        img={{sidebar_channel.img}}
+        [viewers]='sidebar_channel.viewers'
+        name={{sidebar_channel.name}}
+        category={{sidebar_channel.category}}
+        ></app-followed-channels>
+    </div>
+</div>
