@@ -1,0 +1,42 @@
+.text-custom {
+    color: white;
+}
+
+.font-custom {
+    font-weight: 600;
+    font-size: 14pt;
+}
+
+.a-button:hover {
+    background-color: rgb(61, 60, 60);
+    border-radius: 5px;
+}
+
+h3 {
+    font-size: 38pt;
+    font-weight: 700;
+}
+.link-custom:hover{
+    color:#9147ff;
+}
+
+.link-custom {
+    color: white;
+    text-decoration: none;
+}
+
+.link-custom:active {
+    text-color:#9147ff;
+    text-decoration: underline;
+}
+
+.bar-item {
+    font-size: 14pt;
+    font-weight: 600;
+}
+
+.live-channels {
+    color: white;
+    font-size: 15pt;
+    font-weight: 600;
+}

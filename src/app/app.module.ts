@@ -7,6 +7,11 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { FollowedChannelsComponent } from './followed-channels/followed-channels.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { ChannelCardComponent } from './channel-card/channel-card.component';
+import { AppRoutingModule } from './app-routing.module';
+import { ChannelPlayerComponent } from './channel-player/channel-player.component';
+import { HomeComponent } from './home/home.component';
+import { FollowingTabComponent } from './following-tab/following-tab.component';
+import { BrowseTabComponent } from './browse-tab/browse-tab.component';
 
 
 @NgModule({
@@ -16,10 +21,15 @@ import { ChannelCardComponent } from './channel-card/channel-card.component';
     SidebarComponent,
     FollowedChannelsComponent,
     CarouselComponent,
-    ChannelCardComponent
+    ChannelCardComponent,
+    ChannelPlayerComponent,
+    HomeComponent,
+    FollowingTabComponent,
+    BrowseTabComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

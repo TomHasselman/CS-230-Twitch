@@ -1,0 +1,161 @@
+.text-custom {
+    color: white;
+}
+
+.font-custom {
+    font-weight: 600;
+    font-size: 14pt;
+}
+
+.a-button:hover {
+    background-color: rgb(61, 60, 60);
+    border-radius: 5px;
+}
+
+h3 {
+    font-size: 38pt;
+    font-weight: 700;
+}
+.link-custom:hover{
+    color:#9147ff;
+}
+
+.link-custom {
+    color: white;
+    text-decoration: none;
+}
+
+.link-custom:active {
+    text-color:#9147ff;
+    text-decoration: underline;
+}
+
+.bar-item {
+    font-size: 14pt;
+    font-weight: 600;
+}
+
+.live-channels {
+    color: white;
+    font-size: 15pt;
+    font-weight: 600;
+}
+
+.small-text {
+    font-size: 10pt;
+    font-weight: 700;
+
+}
+.search-custom {
+    background-color: #464649;
+    border-color: #464649; 
+    height: 35px; 
+    width: 350px; 
+    right: 2px;
+}
+
+.search-custom:hover {
+    border-width: 1;
+    border-color: #58585c;
+}
+
+.search-custom:active {
+    border-width: 4px;
+    border-color: #9147ff;
+}
+
+.search-button {
+    background-color: #3a3a3d; 
+    border: 10px;
+}
+
+.search-size {
+    width: 100%;
+}
+
+.search-icon {
+    width: 25%;
+}
+
+btn {
+    background-color: #464649;
+}
+
+.dropdown-custom {
+    background-color: #464649;
+    color: white;
+}
+.card-custom {
+    background-color: #0e0e10;
+
+}
+
+.card-body {
+    padding: 0px;
+    padding-top: 4px;
+}
+
+.text-custom {
+    color: white;
+    overflow: hidden;
+}
+
+.subtitle {
+    color: rgb(133, 131, 131);
+    font-size: 10pt;
+    font-weight: 500;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.title {
+    color: white;
+    font-size: 12pt;
+    font-weight: 600;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.title:hover {
+    color:#9147ff;
+}
+
+.a-button:hover {
+    background-color: rgb(61, 60, 60);
+    border-radius: 5px;
+}
+
+.a-text {
+    text-decoration: none;
+}
+
+a:hover {
+    color:#9147ff;
+}
+
+.lang-tag {
+    background-color: rgb(61, 60, 60);
+}
+
+.lang-tag:hover {
+    background-color: rgb(83, 83, 83);
+}
+
+.live-tag {
+    background-color: #eb0400;
+    font-weight: 700;
+}
+
+.viewers-tag {
+    background-color: rgba(39, 38, 39, 0.712);
+    position:absolute;
+    bottom: 30px;
+    left: 5px;
+    font-weight: 600;
+    font-size: 10pt;
+    
+}
+
+.channel-card {
+    width: 20rem;
+}
