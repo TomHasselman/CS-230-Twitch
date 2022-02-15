@@ -26,4 +26,19 @@
     color: rgb(139, 136, 136);
 }
 
+.stream-chat {
+    color: rgb(230, 227, 227);
+}
+
+.donator-text {
+    font-size: 10pt;
+    font-weight: 700;
+    color: rgb(238, 236, 236);
+}
+
+.donator-number {
+    font-size: 10pt;
+    font-weight: 600;
+    color: rgb(182, 180, 180);
+}
 
