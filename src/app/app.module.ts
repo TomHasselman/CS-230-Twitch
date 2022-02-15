@@ -12,6 +12,7 @@ import { ChannelPlayerComponent } from './channel-player/channel-player.componen
 import { HomeComponent } from './home/home.component';
 import { FollowingTabComponent } from './following-tab/following-tab.component';
 import { BrowseTabComponent } from './browse-tab/browse-tab.component';
+import { CategoryLayoutComponent } from './category-layout/category-layout.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { BrowseTabComponent } from './browse-tab/browse-tab.component';
     ChannelPlayerComponent,
     HomeComponent,
     FollowingTabComponent,
-    BrowseTabComponent
+    BrowseTabComponent,
+    CategoryLayoutComponent
   ],
   imports: [
     BrowserModule,

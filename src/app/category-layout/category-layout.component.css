@@ -1,0 +1,108 @@
+.text-custom {
+    color: white;
+}
+
+.font-custom {
+    font-weight: 600;
+    font-size: 14pt;
+}
+
+.a-button:hover {
+    background-color: rgb(61, 60, 60);
+    border-radius: 5px;
+}
+
+h3 {
+    font-size: 28pt;
+    font-weight: 700;
+}
+
+.lang-tag {
+    background-color: rgb(61, 60, 60);
+}
+
+.lang-tag:hover {
+    background-color: rgb(83, 83, 83);
+}
+
+button {
+    background-color: #9147ff;
+}
+
+button:hover {
+    background-color: #793bd6;
+}
+
+.button-text {
+    font-size: 12pt;
+    font-weight: 600;
+}
+
+.link-custom:hover{
+    color:#9147ff;
+}
+
+.link-custom {
+    color: white;
+    text-decoration: none;
+}
+
+.small-text {
+    font-size: 10pt;
+    font-weight: 700;
+
+}
+.search-custom {
+    background-color: #464649;
+    border-color: #464649; 
+    height: 35px; 
+    width: 350px; 
+    right: 2px;
+}
+
+.search-custom:hover {
+    border-width: 1;
+    border-color: #58585c;
+}
+
+.search-custom:active {
+    border-width: 4px;
+    border-color: #9147ff;
+}
+
+.search-button {
+    background-color: #3a3a3d; 
+    border: 10px;
+}
+
+.search-size {
+    width: 100%;
+}
+
+.search-icon {
+    width: 25%;
+}
+.dropdown-custom {
+    background-color: #464649;
+    color: white;
+}
+
+.tag-font {
+    color: rgb(184, 183, 183);
+    font-size: 10pt;
+    font-weight: 700;
+}
+
+.text-2 {
+    color: rgb(190, 188, 188) ;
+    font-size: 10pt;
+    font-weight: 600;
+}
+
+.border {
+    border-style:dashed !important;
+}
+
+.other-tag:hover {
+    background-color:rgb(83, 83, 83) ;
+}

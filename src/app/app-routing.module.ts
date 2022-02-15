@@ -5,12 +5,14 @@ import { ChannelPlayerComponent } from './channel-player/channel-player.componen
 import { HomeComponent } from './home/home.component';
 import { FollowingTabComponent } from './following-tab/following-tab.component';
 import { BrowseTabComponent } from './browse-tab/browse-tab.component';
+import { CategoryLayoutComponent } from './category-layout/category-layout.component';
 
 const routes:Routes = [
   {path: 'channel-player', component: ChannelPlayerComponent},
   {path: '', component: HomeComponent},
   {path: 'following-tab', component: FollowingTabComponent},
-  {path: 'browse-tab', component: BrowseTabComponent}
+  {path: 'browse-tab', component: BrowseTabComponent},
+  {path: 'browse-tab/category-layout', component: CategoryLayoutComponent}
 ];
 
 @NgModule({
