@@ -1,19 +1,20 @@
 Main Features:
-    >Utilized routing to link to various layout components
+    >Created the "chat" component on the "channel-player" page.
+
     
-    >Created the "app-routing.module.ts" file
 
-    >Added the following paths to the Routes list in "app-routing.module.ts":
-        -channel-player
-        -'' for "Home"
-        -following-tab
-        -browse-tab
-        -browse-tab/category-layout
-
-    >Created a component for each of the routes.
+    
 
 
-Bonus Features:
-    >Spent a considerable amount of time ensuring that each layout component looked similar to the original site.
+    >Created the "category-card" component and implemented it with an ngFor loop in the "browse-tab" component.
+        -added the attribute "img" to "category-card"
+        -added the attribute "name" to "category-card"
+        -added the attribute "viewers" to "category-card"
+        -added the attribute "tag" to "category-card"
+
+    >Created the "filter-bar" component in the "browse-tab" component.
+
+    >Created the "category-bar" component in the "browse-tab" component.
+    
 
     

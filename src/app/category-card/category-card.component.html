@@ -1,0 +1,38 @@
+<div class="card card-custom text-custom category-card" >
+    <a routerLink="category-layout"><img src={{img}} width="100%" height="100%" alt="...">
+    </a>
+    <div class="card-body">
+        <div class="d-flex flex-row">
+            <div class="col-9 text-nowrap">
+                <div class="d-flex flex-row">
+                    <a routerLink="category-layout" class="title a-text">
+                        <p class="card-text title">{{name}}</p>
+                    </a>
+                </div>
+
+                <div class="d-flex flex-row">
+                    <a href="#" class="subtitle a-text">
+                        <p class="card-text">{{viewers}}</p>
+                    </a>
+                </div>
+
+                <a href="#">
+                    <div>
+                        <span class="badge rounded-pill text-white lang-tag">{{tag}}</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-1 px-2">
+                <a href="#" class="a-button">
+                    <svg class="bi pt-0 pb-1" width="17" height="22" fill="white">
+                        <use xlink:href="assets/bootstrap-icons.svg#three-dots-vertical" />
+                    </svg>
+                </a>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+

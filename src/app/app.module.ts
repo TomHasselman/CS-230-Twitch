@@ -13,6 +13,10 @@ import { HomeComponent } from './home/home.component';
 import { FollowingTabComponent } from './following-tab/following-tab.component';
 import { BrowseTabComponent } from './browse-tab/browse-tab.component';
 import { CategoryLayoutComponent } from './category-layout/category-layout.component';
+import { ChatComponent } from './chat/chat.component';
+import { CategoryCardComponent } from './category-card/category-card.component';
+import { FilterBarComponent } from './filter-bar/filter-bar.component';
+import { CategoryBarComponent } from './category-bar/category-bar.component';
 
 
 @NgModule({
@@ -27,7 +31,11 @@ import { CategoryLayoutComponent } from './category-layout/category-layout.compo
     HomeComponent,
     FollowingTabComponent,
     BrowseTabComponent,
-    CategoryLayoutComponent
+    CategoryLayoutComponent,
+    ChatComponent,
+    CategoryCardComponent,
+    FilterBarComponent,
+    CategoryBarComponent
   ],
   imports: [
     BrowserModule,

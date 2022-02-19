@@ -2,34 +2,7 @@
     <h3 class="text-custom">Browse</h3>
 </div>
 
-<div class="d-flex flex-row pt-2">
-    <div class="col-auto">
-        <a href="">
-            <img src="assets\Games.png" alt="#" width="95%">
-        </a>
-    </div>
-    <div class="col-auto">
-        <a href="">
-            <img src="assets\IRL.png" alt="#" width="95%">
-        </a>
-    </div>
-    <div class="col-auto">
-        <a href="">
-            <img src="assets\Music.png " alt="#" width="95%">
-        </a>
-    </div>
-    <div class="col-auto">
-        <a href="">
-            <img src="assets\Esports.png" alt="#" width="95%">
-        </a>
-    </div>
-    <div class="col-auto">
-        <a href="">
-            <img src="assets\Creative.png" alt="#" width="95%">
-        </a>
-    </div>
-
-</div>
+<app-category-bar></app-category-bar>
 
 <div class="d-flex flex-row pt-2 font-custom">
     <div class="col-auto pe-4">
@@ -45,129 +18,18 @@
     </div>
 </div>
 
-<div class="d-flex flex-row text-custom pt-4 pb-2">
-    <div class="col-3">
-        <div class="d-flex flex-row">
-            <div class="col-2">
-                <span class="small-text pt-2 pe-2">Filter by</span>
-            </div>
 
-            <div class="col-7">
-                <div class="input-group flex-nowrap search-custom ms-1 rounded search-size">
-                    <div class="search-icon">
-                        <svg class="bi pt-2" href="#" width="28" height="23" fill="white">
-                            <use xlink:href="assets/bootstrap-icons.svg#search" />
-                        </svg>
-                    </div>
-                    <input type="text" class="form-control search-custom " placeholder="Search Tags">
-                </div>
+<app-filter-bar></app-filter-bar>
 
-            </div>
-        </div>
-    </div>
-
-    <div class="col-6">
-
-    </div>
-
-    <div class="col-3">
-        <div class="d-flex flex-row">
-            <div class="col-3"></div>
-            <div class="col-2">
-                <span class="small-text pt-4 pe-2">Sort by</span>
-            </div>
-
-            <div class="col-6">
-                <div class="dropdown">
-                    <a class="btn dropdown-custom dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                      Reccomended For You
-                    </a>
-                  </div>
-            </div>
-        </div>
-
-    </div>
-</div>
 
 <div class="d-flex flex-row">
-    <div class="col-1 me-2">
-    <div class="card card-custom text-custom category-card" >
-        <a routerLink="category-layout"><img src="https://static-cdn.jtvnw.net/ttv-boxart/272263131-285x380.jpg" width="100%" height="100%" alt="...">
-        </a>
-        <div class="card-body">
-            <div class="d-flex flex-row">
-                <div class="col-9 text-nowrap">
-                    <div class="d-flex flex-row">
-                        <a routerLink="category-layout" class="title a-text">
-                            <p class="card-text title">Animals, Aquariums, and Zoos</p>
-                        </a>
-                    </div>
-
-                    <div class="d-flex flex-row">
-                        <a href="#" class="subtitle a-text">
-                            <p class="card-text">8.3k viewers</p>
-                        </a>
-                    </div>
-
-                    <a href="#">
-                        <div>
-                            <span class="badge rounded-pill text-white lang-tag">IRL</span>
-                        </div>
-                    </a>
-                </div>
-    
-                <div class="col-1 px-2">
-                    <a href="#" class="a-button">
-                        <svg class="bi pt-0 pb-1" width="17" height="22" fill="white">
-                            <use xlink:href="assets/bootstrap-icons.svg#three-dots-vertical" />
-                        </svg>
-                    </a>
-                </div>
-    
-    
-            </div>
-        </div>
-    </div>
-    
+    <div class="col-1 me-2" *ngFor="let category of categories">
+    <app-category-card
+    img={{category.img}}
+    name={{category.name}}
+    viewers={{category.viewers}}
+    tag={{category.tag}}
+    ></app-category-card>
 </div>
-<div class="col-1 me-2">
-    <div class="card card-custom text-custom category-card" >
-        <a routerLink="category-layout"><img src="https://static-cdn.jtvnw.net/ttv-boxart/490100-285x380.jpg" width="100%" height="100%" alt="...">
-        </a>
-        <div class="card-body">
-            <div class="d-flex flex-row">
-                <div class="col-9 text-nowrap">
-                    <div class="d-flex flex-row">
-                        <a href="#" class="title a-text">
-                            <p class="card-text title">LOST ARK</p>
-                        </a>
-                    </div>
 
-                    <div class="d-flex flex-row">
-                        <a href="#" class="subtitle a-text">
-                            <p class="card-text">523k viewers</p>
-                        </a>
-                    </div>
-
-                    <a href="#">
-                        <div>
-                            <span class="badge rounded-pill text-white lang-tag">MMO</span>
-                        </div>
-                    </a>
-                </div>
-    
-                <div class="col-1 px-2">
-                    <a href="#" class="a-button">
-                        <svg class="bi pt-0 pb-1" width="17" height="22" fill="white">
-                            <use xlink:href="assets/bootstrap-icons.svg#three-dots-vertical" />
-                        </svg>
-                    </a>
-                </div>
-    
-    
-            </div>
-        </div>
-    </div>
-    
-</div>
 </div>
