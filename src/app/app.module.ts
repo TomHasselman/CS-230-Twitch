@@ -17,6 +17,8 @@ import { ChatComponent } from './chat/chat.component';
 import { CategoryCardComponent } from './category-card/category-card.component';
 import { FilterBarComponent } from './filter-bar/filter-bar.component';
 import { CategoryBarComponent } from './category-bar/category-bar.component';
+import { PlayerTitleBarComponent } from './player-title-bar/player-title-bar.component';
+import { PlayerDescriptionComponent } from './player-description/player-description.component';
 
 
 @NgModule({
@@ -35,7 +37,9 @@ import { CategoryBarComponent } from './category-bar/category-bar.component';
     ChatComponent,
     CategoryCardComponent,
     FilterBarComponent,
-    CategoryBarComponent
+    CategoryBarComponent,
+    PlayerTitleBarComponent,
+    PlayerDescriptionComponent
   ],
   imports: [
     BrowserModule,

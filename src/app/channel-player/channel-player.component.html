@@ -1,10 +1,22 @@
 <div class="d-flex flex-row text-custom">
-    <div class="d-flex col-9" style="height: 56rem">
-        <iframe class=" player-custom" src="https://player.twitch.tv/?channel=marinemammalrescue&parent=localhost"
-            frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="600"></iframe>
+    <div class="col-9">
+        <div class="d-flex flex-row">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item"
+                    src="https://player.twitch.tv/?channel=marinemammalrescue&parent=localhost" frameborder="0"
+                    allowfullscreen="true" scrolling="no" height="720px" width="1200px"></iframe>
+            </div>
+        </div>
+
+
+        <app-player-title-bar></app-player-title-bar>
+
+
+        <app-player-description></app-player-description>
+
     </div>
 
-    <div class="flex-column side chat-custom side" style="width: 100%;">
+    <div class="flex-column chat-custom" style="width: 100%;">
         <app-chat></app-chat>
     </div>
 </div>

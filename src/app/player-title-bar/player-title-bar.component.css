@@ -71,6 +71,13 @@ button:hover {
 .dropdown-custom {
     background-color: #303031;
     color: white;
+    text-decoration: none;
+}
+
+.dropdown-custom:hover {
+    background-color: #3f3f41;
+    color: white;
+    text-decoration: none;
 }
 
 .stream-chat {
@@ -121,40 +128,10 @@ button:hover {
     border-radius: 5px;
 }
 
-.description {
-    background-color:#1f1f22 ;
-}
-
-.des-title {
-    font-size: 14pt;
-    font-weight: 700;
-}
-
-.des-subtitle {
-    font-size: 11pt;
-    font-weight: 600;
-    color: rgb(170, 170, 170);
-}
-
-.des-body {
-    font-size: 11pt;
-    font-weight: 600;
-    color: rgb(224, 221, 221);
-}
-
-.des-links {
+.name-button {
     text-decoration: none;
-    font-size: 10.5pt;
-    font-weight: 600;
-    color: rgb(165, 162, 162);
 }
 
-.des-links:hover {
-    text-decoration: none;
-    font-size: 10.5pt;
-    font-weight: 600;
-    color: rgb(221, 113, 113);
+.name-button:hover {
+    text-decoration: underline;
 }
-
-
-

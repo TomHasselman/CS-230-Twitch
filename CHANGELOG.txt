@@ -1,9 +1,9 @@
 Main Features:
     >Created the "chat" component on the "channel-player" page.
 
-    
+    >Created the "player-title-bar" component on the "channel-player" page.
 
-    
+    >Created the "player-description" component on the "channel-player" page.
 
 
     >Created the "category-card" component and implemented it with an ngFor loop in the "browse-tab" component.
