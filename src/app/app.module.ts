@@ -19,6 +19,8 @@ import { FilterBarComponent } from './filter-bar/filter-bar.component';
 import { CategoryBarComponent } from './category-bar/category-bar.component';
 import { PlayerTitleBarComponent } from './player-title-bar/player-title-bar.component';
 import { PlayerDescriptionComponent } from './player-description/player-description.component';
+import { UserInfoComponent } from './user-info/user-info.component';
+import {HttpClientModule} from '@angular/common/http'
 
 
 @NgModule({
@@ -39,11 +41,13 @@ import { PlayerDescriptionComponent } from './player-description/player-descript
     FilterBarComponent,
     CategoryBarComponent,
     PlayerTitleBarComponent,
-    PlayerDescriptionComponent
+    PlayerDescriptionComponent,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
