@@ -1,14 +1,8 @@
 Main Features:
-    >Added back-end functionality:
-        - Created the "user-info.component.ts" file
-            + Created the "getUserInfo()" method
-            + Create the "showUserInfo()" method 
-
-        - Created the "user-info.model.ts" file
-
-        - Created the "user-info.component.css" file
-        
-        - Created the "user-info.component.html" file
+    >Migrated the Channel list to the Firebase database
+        -Created the "channels.service.ts" file 
+          + Created the "getChannels()" function
+          + Created the "getChannel()" function  
     
 
     
