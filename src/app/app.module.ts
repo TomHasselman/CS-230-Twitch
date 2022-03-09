@@ -20,7 +20,12 @@ import { CategoryBarComponent } from './category-bar/category-bar.component';
 import { PlayerTitleBarComponent } from './player-title-bar/player-title-bar.component';
 import { PlayerDescriptionComponent } from './player-description/player-description.component';
 import { UserInfoComponent } from './user-info/user-info.component';
-import {HttpClientModule} from '@angular/common/http'
+import {HttpClientModule} from '@angular/common/http';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideDatabase,getDatabase } from '@angular/fire/database';
+import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
+import { AngularFireModule } from '@angular/fire/compat'
 
 
 @NgModule({
@@ -47,7 +52,9 @@ import {HttpClientModule} from '@angular/common/http'
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFirestoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]

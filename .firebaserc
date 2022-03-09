@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "twitch-bab27"
+  },
+  "targets": {
+    "twitch-bab27": {
+      "hosting": {
+        "twitch": [
+          "twitch-bab27"
+        ]
+      }
+    }
+  }
+}
