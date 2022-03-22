@@ -25,7 +25,8 @@ import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 import { environment } from '../environments/environment';
 import { provideDatabase,getDatabase } from '@angular/fire/database';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
-import { AngularFireModule } from '@angular/fire/compat'
+import { AngularFireModule } from '@angular/fire/compat';
+import { AddChannelComponent } from './home/add-channel/add-channel.component'
 
 
 @NgModule({
@@ -47,7 +48,8 @@ import { AngularFireModule } from '@angular/fire/compat'
     CategoryBarComponent,
     PlayerTitleBarComponent,
     PlayerDescriptionComponent,
-    UserInfoComponent
+    UserInfoComponent,
+    AddChannelComponent
   ],
   imports: [
     BrowserModule,
