@@ -1,8 +1,7 @@
 Main Features:
-    >Migrated the Channel list to the Firebase database
-        -Created the "channels.service.ts" file 
-          + Created the "getChannels()" function
-          + Created the "getChannel()" function  
+    >Ipmplemented Hosting through Firebase
+      -Utilized the Firebase CLI to create and format all of the needed files (firebase.json, .firebasesrc, etc.)
+        
     
 
     
