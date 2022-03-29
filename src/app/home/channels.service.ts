@@ -23,5 +23,8 @@ export class ChannelsService {
 
     }
 
+    addChannel(channel : ChannelModel) {
+        this.db.list<ChannelModel>("Channels").push(channel);
+    }
 
 }

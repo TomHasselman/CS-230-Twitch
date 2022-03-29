@@ -27,6 +27,7 @@ import { provideDatabase,getDatabase } from '@angular/fire/database';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { AngularFireModule } from '@angular/fire/compat';
 import { AddChannelComponent } from './home/add-channel/add-channel.component'
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -56,7 +57,8 @@ import { AddChannelComponent } from './home/add-channel/add-channel.component'
     AppRoutingModule,
     HttpClientModule,
     AngularFireModule.initializeApp(environment.firebase),
-    AngularFirestoreModule
+    AngularFirestoreModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

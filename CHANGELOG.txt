@@ -1,7 +1,9 @@
 Main Features:
-    >Ipmplemented Hosting through Firebase
-      -Utilized the Firebase CLI to create and format all of the needed files (firebase.json, .firebasesrc, etc.)
-        
+  -Implemented an "admin" page to allow for the addition of new channels to database 
     
+    >Created the "add-channel.component.html" file
 
+    >Created the "add-channel.component.ts" file
+    
+    >Created the "addChannel" function to "channels.servic.ts"
     
