@@ -7,6 +7,7 @@ import { FollowingTabComponent } from './following-tab/following-tab.component';
 import { BrowseTabComponent } from './browse-tab/browse-tab.component';
 import { CategoryLayoutComponent } from './category-layout/category-layout.component';
 import { AddChannelComponent } from './home/add-channel/add-channel.component';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 const routes:Routes = [
   {path: 'channel-player', component: ChannelPlayerComponent},
@@ -14,7 +15,8 @@ const routes:Routes = [
   {path: 'following-tab', component: FollowingTabComponent},
   {path: 'browse-tab', component: BrowseTabComponent},
   {path: 'browse-tab/category-layout', component: CategoryLayoutComponent},
-  {path: 'admin', component: AddChannelComponent}
+  {path: 'admin', component: AddChannelComponent},
+  {path: 'auth', component: AuthenticationComponent}
 ];
 
 @NgModule({

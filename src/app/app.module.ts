@@ -28,6 +28,7 @@ import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { AngularFireModule } from '@angular/fire/compat';
 import { AddChannelComponent } from './home/add-channel/add-channel.component'
 import { FormsModule } from '@angular/forms';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 
 @NgModule({
@@ -50,7 +51,8 @@ import { FormsModule } from '@angular/forms';
     PlayerTitleBarComponent,
     PlayerDescriptionComponent,
     UserInfoComponent,
-    AddChannelComponent
+    AddChannelComponent,
+    AuthenticationComponent
   ],
   imports: [
     BrowserModule,
