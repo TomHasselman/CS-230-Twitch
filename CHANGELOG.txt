@@ -1,9 +1,14 @@
 Main Features:
-  -Implemented an "admin" page to allow for the addition of new channels to database 
-    
-    >Created the "add-channel.component.html" file
+  -Implemented Authentication
+    +created the "authentication.component.html" file
+      >created a form for users to input their credentials
 
-    >Created the "add-channel.component.ts" file
-    
-    >Created the "addChannel" function to "channels.servic.ts"
+    +created the "authentication.component.ts" file
+      >implemented the "onSubmit" method to send used data to the authentication server
+
+    +created the "authentication.component.spec.ts" file
+
+    +created the "authentication.service.ts" file
+      >implemented the "signup" method to pass the user information to other classes
+
     
